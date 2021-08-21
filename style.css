@@ -1,0 +1,185 @@
+/* =============  header section  ============== */
+.header {
+    background-color: #101446;
+}
+
+.header .left_logo {
+    max-width: 30%;
+    padding: 15px;
+}
+
+.header .left_logo img {
+    width: 100%;
+}
+
+.header .right_menu {}
+
+.header .right_menu ul {
+    margin-bottom: 0px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.header .right_menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header .right_menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+/* =============  hero section  ==============  */
+.hreo_section {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .6)), url(./hero\ img.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 320px;
+    background-position: bottom center;
+    background-color: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+}
+
+.hreo_section .hero_content {
+    text-align: center;
+}
+
+.hreo_section .hero_content h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.hreo_section .hero_content p {
+    font-size: 22px;
+    padding: 35px 20px;
+}
+
+.hreo_section .hero_content a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #337ab7;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* =============  teem  section  ==============  */
+.teem_section {
+    background-color: #bac1f3;
+}
+
+.teem_section h2 {
+    font-size: 70px;
+}
+
+.teem_section .teem_member {
+    background-color: #bac1f3;
+}
+
+.teem_section .teem_member img {}
+
+.teem_section .teem_member .top_pra {}
+
+.teem_section .teem_member .buttom_pra {
+    width: 53%;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.teem_section .teem_member a {
+    background-color: #337ab7;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/*  =============  about   section  ============== */
+.about_section {
+    background-color: #c2d4ea;
+    color: #717474;
+    padding: 130px 0px !important;
+}
+
+.about_section .wrapper_left_about {
+    padding-right: 20px;
+}
+
+.about_section .about_us {
+    font-size: 55px;
+    color: black;
+}
+
+.about_section .testmonial_img {
+    padding: 0px 20px 20px 0px;
+}
+
+.about_section .testmonial_img img {}
+
+.about_section .detelis {
+    padding-left: 35px;
+    color: #717474;
+}
+
+.about_section .detelis span {
+    line-height: 35px;
+}
+
+.about_section .wrapper_right_about {
+    padding-left: 20px;
+}
+
+.about_section .about_right_pra {}
+
+.about_section .about_right_pra {}
+
+.about_section .about_right_headding {
+    color: black;
+    font-size: 28px;
+}
+
+.about_section .about_right_pra {}
+
+.about_section .about_right_buttom_pra {
+    font-size: 23px;
+}
+
+/* =============  contact  section  ============== */
+.contact_section {}
+
+.contact_section form {}
+
+
+.contact_section .form_countact .btn {
+    background-color: #5cc0de;
+    margin-top: 20px;
+    color: white;
+}
+.contact_section .form_countact label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*  =============  footer  section  ============== */
+.footer_section {
+    background-color: #0062d3;
+
+}
+
+.footer_section p {
+    color: white;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+}
